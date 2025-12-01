@@ -1,5 +1,7 @@
-import classes from './loading.module.css';
+import React from "react";
 
-export default function MealsLoadingPage() {
-  return <p className={classes.loading}>Fetching meals...</p>;
-}
+const Loading = () => {
+  return <div>Loading</div>;
+};
+
+export default Loading;
